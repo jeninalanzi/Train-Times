@@ -1,0 +1,51 @@
+body {
+    background: url("../images/trainscenic.jpg") fixed no-repeat;
+    background-size: cover;
+}
+
+.jumbotron {
+     background: none;
+     color: #fff;
+     text-shadow: 2px 4px 3px #000000c7;
+     font-weight: bold;
+     height: 230px;
+     font-family: 'Merriweather', serif;
+
+}
+
+.container-fluid {
+    max-width: 1200px;
+}
+
+.col-xs-12, .col-md-4, .col-md-8 {
+    background-color: none;
+}
+
+.card-header {
+    background: #7dafe9;
+    color: #000;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+.card-body {
+    border: #7dafe9;
+}
+
+footer {
+    background-color: #32445a;
+    color: #ccc;
+    padding: 0px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    font-size: 12px;
+}
+
+/* Targets ONLY the NEXT TRAIN time so that the user can see it easily */
+#next-train {
+    color: blue;
+    font-weight: bold
+}
