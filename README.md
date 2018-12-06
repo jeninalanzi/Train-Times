@@ -1,6 +1,9 @@
-# train-times
+# Train-Times
+
 A Firebase-powered page for displaying train times, arrivals, as well as user inputs.
 
+
+## Key Objectives & Commentary
 
 I utilized Firebase as well as moment.js for this exercise.
 
